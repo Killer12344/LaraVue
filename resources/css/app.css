@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+@import '../../node_modules/imagehover.css/css/imagehover.css';
+
+:root{
+    --black : #011936;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Average Sans', sans-serif;
+}
+
+.navbar-color{
+    background-color: var(--black) !important;
+    padding: 13px 0px !important;
+}
+
+.nav-link{
+    width: 85px !important;
+    text-align: center !important;
+}
+
+
